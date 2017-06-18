@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ad4d0630-48fa-ff4c-87d4-381a4c40044a++1543",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ad4d0630-48fa-ff4c-87d4-381a4c40044a++1543" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ad4d0630-48fa-ff4c-87d4-381a4c40044a++1543" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F11BA546-7C8B-490F-81D3-3DAB69B67F5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ad4d0630-48fa-ff4c-87d4-381a4c40044a++1543" : "MVPSports\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MVPSports",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MVPSports.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/chetusvn.chetu.com:8443\/svn\/MVPSports",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ad4d0630-48fa-ff4c-87d4-381a4c40044a++1543"
+    }
+  ]
+}

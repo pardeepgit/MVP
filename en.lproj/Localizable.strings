@@ -1,0 +1,203 @@
+/* 
+  Localizable.strings
+  MVPSports
+  Created by Chetu India on 19/10/16.
+*/
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPLoginViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"UsernamePlaceholder" = "Username";
+"PasswordPlaceholder" = "Password";
+"EnterRegisteredEmailPlaceholder" = "Enter registered email";
+"PleaseEnterUsernameAlertMsg" = "Please enter username";
+"PleaseEnterPasswordAlertMsg" = "Please enter password";
+"InvalidUsernameOrPasswordAlertMsg" = "Invalid username or password";
+"ValidRegisteredEmailRequiredAlertMsg" = "Valid registered email required in forgot password screen";
+"PleaseEnterAvalidEmailAlertMsg" = "Please enter a valid email";
+"LoginSuccessMsg" = "Login Successful";
+"NewPasswordMailIsSentAlertMsg" = "New password mail is sent to your registered mail. Please check";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ * String for the module name of MyMVP module functionality.
+ */
+"HPChartModule" = "HP Chart";
+"RewardsModule" = "Rewards";
+"AccountInfoModule" = "Account Info";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPConnectedAppsViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ * String for the connected apps name of MyMVPAccounts module connected apps functionality.
+ */
+"fitbitApp" = "fitbit";
+"UnLinkMessage" = "Do you really want to UnLink";
+
+
+
+"PermissionAlertMessage" = "Please enable calendar permission from device -> setting of app, which you denied earlier.";
+
+"NoWorkoutsMsg" = "No Workouts Available";
+"NoJournalsMsg" = "No Journals Available";
+
+"NoSiteClassesMsg" = "No Classes Available";
+"NoSiteClubsMsg" = "No Clubs Available";
+"NoSiteClubsForNotifyMsg" = "No Clubs For Notify Available";
+
+"NoRewardsMsg" = "No Rewards Available";
+"NoActiveRewardsMsg" = "No Active Rewards Available";
+"NoUsedRewardsMsg" = "No Used Rewards Available";
+
+"NoAnnouncementsMsg" = "No Announcements Available";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPRewardsViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ * String identifiers for the Reward type status....
+ */
+"FriendEmailAlertMsg" = "Please enter friend email";
+"ValidEmailAlertMsg" = "Please enter a valid email";
+"SendRewardAlertMsg" = "reward is send to friend mail succesfully";
+"NoRewardsFoundText" = "No rewards found";
+
+"AllReward" = "All";
+"ActiveReward" = "Active";
+"UsedReward" = "Used";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPCheckInViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"AlreadyCheckedInAlertMsg" = "Already checked-in";
+"CheckedInStatusFailureAlertMsg" = "Please check in to the front desk of your club before checking into classes";
+"CheckedInStatusApiFailureAlertMsg" = "Try again, Site Club check-in status api failure.";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPWorkoutViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"IncompleteParameterAlertMsg" = "Please try again, incomplete parameter";
+"WorkoutEditSuccesfullyAlertMsg" = "WorkOut edit succesfully";
+
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPCreateWorkoutViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"SaveWorkoutSuccesfullyMsg" = "WorkOut save succesfully";
+"DateValidationMsg" = "Please select Date first";
+"TimeValidationMsg" = "Please select Time first";
+"DateTimeValidationMsg" = "Please enter workout date and time less than the current date and time";
+"MachineTypeValidationMsg" = "Please select Machine Type first";
+"DurationValidationMsg" = "Please select Duration first";
+"DistanceValidationMsg" = "Please enter Distance first";
+"CalorieValidationMsg" = "Please enter Calories first";
+"NoteValidationMsg" = "Please enter Note first";
+"NoteTextLengthValidationMsg" = "Not more than 500 character text";
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPScheduleViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"EventAlreadyAddedMsg" = "Event is already added in the calendar";
+"DoYouReallyWantToAddMsg" = "Do you want to add event to calendar?";
+"WantToMarkAsFavoriteAddMsg" = "Do you want to mark this as favorite?";
+"WantToMarkAsUnFavoriteAddMsg" = "Do you want to mark this as un-favorite?";
+"NoInstructorInformationAvailable" = "instructor information is not available";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPScheduleViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"CouldNotSendEmailTitle" = "Could Not Send Email";
+"CouldNotSendEmailMsg" = "Your device could not send e-mail.  Please check e-mail configuration and try again";
+"NoSiteClubPhoneNumber" = "Site Club don't have phone number";
+"ErrorOccuredToSetAsDefaultSiteClassMsg" = "An error occured to set as default Site Class";
+"AlreadyDefaultSiteClubMsg" = "Already your default Site Club";
+
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * String used in MVPMyMVPCommentCardViewController subclass of UIViewController ....
+ * String eirther used for placeholder, for alert messages or for other UI components...
+ */
+"SendCommentEmailValidationMsg" = "Please enter feedback email first";
+"SendCommentValidEmailValidationMsg" = "Please enter feedback valid email first";
+"SendCommentSelectOptionValidationMsg" = "Please select feedback option first";
+"SendCommentValidationMsg" = "Please enter feedback comment first";
+"SendCommentApiSuccessMsg" = "Send feedback comment successfully";
+"SendCommentApiErrorMsg" = "An error occured to send feedback comment";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * HUD progress loader messages string ....
+ */
+"AuthenticatingMsg" = "Authenticating...";
+"SendingPasswordMsg" = "Sending Password...";
+"LoadingMsg" = "Loading...";
+"SendingMsg" = "Sending...";
+"UpdatingMsg" = "Updating...";
+"EditWorkoutMsg" = "Editing WorkOut...";
+"DeleteWorkoutMsg" = "Deleting WorkOut...";
+"DeleteAnnouncementMsg" = "Deleting Announcement...";
+"SaveWorkoutMsg" = "Save WorkOut...";
+
+
+
+
+/*
+ * Localizable string identifier declaration of ....
+ * UIAlertViewController title, messages and action butoon title ....
+ */
+"SuccessTitle" = "Success!";
+"ErrorTitle" = "Error!";
+"AlertTitle" = "Alert!";
+"OkAction" = "OK";
+"CancelAction" = "CANCEL";
+"YesAction" = "YES";
+"NoAction" = "NO";
+"NetworkErrorTitle" = "Network Error!";
+"NoInternetConnectionTitle" = "No Internet Connection!";
+"RequestTimeoutMsg" = "Server not responding at the moment. Please try again later.";
+"NoInternetConnectionMsg" = "Make sure your device is connected to the internet";
+

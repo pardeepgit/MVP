@@ -1,0 +1,1938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D7D9AA2FB8DC0B81EFA5BF /* Pods_MVPSports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E248DF2AE8DFE67A750646 /* Pods_MVPSports.framework */; };
+		3A03A66F1D86AEF900EF5AE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A66E1D86AEF900EF5AE4 /* NetworkManager.swift */; };
+		3A03A6701D86AEF900EF5AE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A66E1D86AEF900EF5AE4 /* NetworkManager.swift */; };
+		3A03A6711D86AEF900EF5AE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A66E1D86AEF900EF5AE4 /* NetworkManager.swift */; };
+		3A0AF7231DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0AF7221DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift */; };
+		3A0AF7241DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0AF7221DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift */; };
+		3A0AF7251DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0AF7221DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift */; };
+		3A0FE2791D66219C003BD6FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE2781D66219C003BD6FC /* User.swift */; };
+		3A0FE27B1D6621E7003BD6FC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27A1D6621E7003BD6FC /* UserViewModel.swift */; };
+		3A0FE27D1D66225B003BD6FC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27C1D66225B003BD6FC /* LoginService.swift */; };
+		3A0FE27E1D662260003BD6FC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27C1D66225B003BD6FC /* LoginService.swift */; };
+		3A0FE27F1D662260003BD6FC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27C1D66225B003BD6FC /* LoginService.swift */; };
+		3A0FE2801D662264003BD6FC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27A1D6621E7003BD6FC /* UserViewModel.swift */; };
+		3A0FE2811D662265003BD6FC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE27A1D6621E7003BD6FC /* UserViewModel.swift */; };
+		3A0FE2821D662268003BD6FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE2781D66219C003BD6FC /* User.swift */; };
+		3A0FE2831D662268003BD6FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0FE2781D66219C003BD6FC /* User.swift */; };
+		3A0FE2841D66226C003BD6FC /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C11D65D04B002C2D29 /* Reward.swift */; };
+		3A0FE2851D66226D003BD6FC /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C11D65D04B002C2D29 /* Reward.swift */; };
+		3A0FE2861D662272003BD6FC /* RewardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C31D65D15A002C2D29 /* RewardService.swift */; };
+		3A0FE2871D662273003BD6FC /* RewardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C31D65D15A002C2D29 /* RewardService.swift */; };
+		3A1470391DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1470381DDDB731003FEA96 /* MVPForgotPasswordViewController.swift */; };
+		3A14703A1DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1470381DDDB731003FEA96 /* MVPForgotPasswordViewController.swift */; };
+		3A14703B1DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1470381DDDB731003FEA96 /* MVPForgotPasswordViewController.swift */; };
+		3A1BF5BE1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BD1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift */; };
+		3A1BF5C01D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BF1D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift */; };
+		3A1BF5C21D65D04B002C2D29 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C11D65D04B002C2D29 /* Reward.swift */; };
+		3A1BF5C41D65D15A002C2D29 /* RewardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C31D65D15A002C2D29 /* RewardService.swift */; };
+		3A1BF5CA1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C91D65DEC2002C2D29 /* RewardViewModel.swift */; };
+		3A1BF5CB1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C91D65DEC2002C2D29 /* RewardViewModel.swift */; };
+		3A1BF5CC1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5C91D65DEC2002C2D29 /* RewardViewModel.swift */; };
+		3A1C04581D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C04571D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift */; };
+		3A1C04591D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C04571D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift */; };
+		3A1C045A1D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C04571D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift */; };
+		3A1C045C1D771354001315A1 /* AccountInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045B1D771354001315A1 /* AccountInfoViewModel.swift */; };
+		3A1C045D1D771354001315A1 /* AccountInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045B1D771354001315A1 /* AccountInfoViewModel.swift */; };
+		3A1C045E1D771354001315A1 /* AccountInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045B1D771354001315A1 /* AccountInfoViewModel.swift */; };
+		3A1C04601D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045F1D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift */; };
+		3A1C04611D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045F1D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift */; };
+		3A1C04621D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C045F1D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift */; };
+		3A1F6A541D58F74E00066AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6A531D58F74E00066AB2 /* AppDelegate.swift */; };
+		3A1F6A591D58F74F00066AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1F6A571D58F74F00066AB2 /* Main.storyboard */; };
+		3A1F6A5B1D58F74F00066AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1F6A5A1D58F74F00066AB2 /* Assets.xcassets */; };
+		3A1F6A5E1D58F74F00066AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1F6A5C1D58F74F00066AB2 /* LaunchScreen.storyboard */; };
+		3A1F6A691D58F75100066AB2 /* MVPSportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6A681D58F75100066AB2 /* MVPSportsTests.swift */; };
+		3A1F6A741D58F75100066AB2 /* MVPSportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6A731D58F75100066AB2 /* MVPSportsUITests.swift */; };
+		3A1F81621DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815B1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m */; };
+		3A1F81631DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815B1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m */; };
+		3A1F81641DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815B1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m */; };
+		3A1F81651DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815D1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m */; };
+		3A1F81661DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815D1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m */; };
+		3A1F81671DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815D1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m */; };
+		3A1F81681DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815F1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m */; };
+		3A1F81691DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815F1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m */; };
+		3A1F816A1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F815F1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m */; };
+		3A1F816B1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F81611DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3A1F816C1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F81611DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3A1F816D1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F81611DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3A2011351E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011331E1FB3C100DC08FF /* DashboardViewModel.swift */; };
+		3A2011361E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011331E1FB3C100DC08FF /* DashboardViewModel.swift */; };
+		3A2011371E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011331E1FB3C100DC08FF /* DashboardViewModel.swift */; };
+		3A2011381E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011341E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift */; };
+		3A2011391E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011341E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift */; };
+		3A20113A1E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011341E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift */; };
+		3A2011551E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20113E1E1FB40F00DC08FF /* FMDatabase+FTS3.m */; };
+		3A2011561E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20113E1E1FB40F00DC08FF /* FMDatabase+FTS3.m */; };
+		3A2011571E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20113E1E1FB40F00DC08FF /* FMDatabase+FTS3.m */; };
+		3A2011581E1FB40F00DC08FF /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011401E1FB40F00DC08FF /* FMTokenizers.m */; };
+		3A2011591E1FB40F00DC08FF /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011401E1FB40F00DC08FF /* FMTokenizers.m */; };
+		3A20115A1E1FB40F00DC08FF /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011401E1FB40F00DC08FF /* FMTokenizers.m */; };
+		3A20115B1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011441E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m */; };
+		3A20115C1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011441E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m */; };
+		3A20115D1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011441E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m */; };
+		3A20115E1E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011461E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift */; };
+		3A20115F1E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011461E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift */; };
+		3A2011601E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011461E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift */; };
+		3A2011611E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011471E1FB40F00DC08FF /* FMDatabaseVariadic.swift */; };
+		3A2011621E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011471E1FB40F00DC08FF /* FMDatabaseVariadic.swift */; };
+		3A2011631E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011471E1FB40F00DC08FF /* FMDatabaseVariadic.swift */; };
+		3A2011641E1FB40F00DC08FF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114A1E1FB40F00DC08FF /* FMDatabase.m */; };
+		3A2011651E1FB40F00DC08FF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114A1E1FB40F00DC08FF /* FMDatabase.m */; };
+		3A2011661E1FB40F00DC08FF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114A1E1FB40F00DC08FF /* FMDatabase.m */; };
+		3A2011671E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114C1E1FB40F00DC08FF /* FMDatabaseAdditions.m */; };
+		3A2011681E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114C1E1FB40F00DC08FF /* FMDatabaseAdditions.m */; };
+		3A2011691E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114C1E1FB40F00DC08FF /* FMDatabaseAdditions.m */; };
+		3A20116A1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114E1E1FB40F00DC08FF /* FMDatabasePool.m */; };
+		3A20116B1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114E1E1FB40F00DC08FF /* FMDatabasePool.m */; };
+		3A20116C1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20114E1E1FB40F00DC08FF /* FMDatabasePool.m */; };
+		3A20116D1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011501E1FB40F00DC08FF /* FMDatabaseQueue.m */; };
+		3A20116E1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011501E1FB40F00DC08FF /* FMDatabaseQueue.m */; };
+		3A20116F1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011501E1FB40F00DC08FF /* FMDatabaseQueue.m */; };
+		3A2011701E1FB40F00DC08FF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011531E1FB40F00DC08FF /* FMResultSet.m */; };
+		3A2011711E1FB40F00DC08FF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011531E1FB40F00DC08FF /* FMResultSet.m */; };
+		3A2011721E1FB40F00DC08FF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011531E1FB40F00DC08FF /* FMResultSet.m */; };
+		3A2011731E1FB40F00DC08FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2011541E1FB40F00DC08FF /* Info.plist */; };
+		3A2011741E1FB40F00DC08FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2011541E1FB40F00DC08FF /* Info.plist */; };
+		3A2011751E1FB40F00DC08FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2011541E1FB40F00DC08FF /* Info.plist */; };
+		3A2011781E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011761E1FB46500DC08FF /* DatabaseConstantFile.swift */; };
+		3A2011791E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011761E1FB46500DC08FF /* DatabaseConstantFile.swift */; };
+		3A20117A1E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011761E1FB46500DC08FF /* DatabaseConstantFile.swift */; };
+		3A20117B1E1FB46500DC08FF /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011771E1FB46500DC08FF /* DBManager.swift */; };
+		3A20117C1E1FB46500DC08FF /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011771E1FB46500DC08FF /* DBManager.swift */; };
+		3A20117D1E1FB46500DC08FF /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2011771E1FB46500DC08FF /* DBManager.swift */; };
+		3A220FBF1DCB3DEF004354C1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBA1DCB3DEF004354C1 /* Bolts.framework */; };
+		3A220FC01DCB3DEF004354C1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBA1DCB3DEF004354C1 /* Bolts.framework */; };
+		3A220FC11DCB3DEF004354C1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBA1DCB3DEF004354C1 /* Bolts.framework */; };
+		3A220FC51DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBC1DCB3DEF004354C1 /* FBSDKCoreKit.framework */; };
+		3A220FC61DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBC1DCB3DEF004354C1 /* FBSDKCoreKit.framework */; };
+		3A220FC71DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBC1DCB3DEF004354C1 /* FBSDKCoreKit.framework */; };
+		3A220FC81DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBD1DCB3DEF004354C1 /* FBSDKLoginKit.framework */; };
+		3A220FC91DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBD1DCB3DEF004354C1 /* FBSDKLoginKit.framework */; };
+		3A220FCA1DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBD1DCB3DEF004354C1 /* FBSDKLoginKit.framework */; };
+		3A220FCB1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBE1DCB3DEF004354C1 /* FBSDKShareKit.framework */; };
+		3A220FCC1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBE1DCB3DEF004354C1 /* FBSDKShareKit.framework */; };
+		3A220FCD1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A220FBE1DCB3DEF004354C1 /* FBSDKShareKit.framework */; };
+		3A2C09C81DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C09C71DA2655500C24E8E /* SiteClubsViewModel.swift */; };
+		3A2C09C91DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C09C71DA2655500C24E8E /* SiteClubsViewModel.swift */; };
+		3A2C09CA1DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C09C71DA2655500C24E8E /* SiteClubsViewModel.swift */; };
+		3A3AFCA91D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCA81D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift */; };
+		3A3AFCAA1D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCA81D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift */; };
+		3A3AFCAB1D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCA81D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift */; };
+		3A3AFCAD1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCAC1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift */; };
+		3A3AFCAE1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCAC1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift */; };
+		3A3AFCAF1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AFCAC1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift */; };
+		3A3C57071D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C57031D82F5BE00B7A509 /* WebViewAuthViewController.xib */; };
+		3A3C57081D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C57031D82F5BE00B7A509 /* WebViewAuthViewController.xib */; };
+		3A3C57091D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C57031D82F5BE00B7A509 /* WebViewAuthViewController.xib */; };
+		3A3C59E71DB7749B001BB88F /* ConstantIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C59E61DB7749B001BB88F /* ConstantIdentifier.swift */; };
+		3A3C59E81DB7749B001BB88F /* ConstantIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C59E61DB7749B001BB88F /* ConstantIdentifier.swift */; };
+		3A3C59E91DB7749B001BB88F /* ConstantIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C59E61DB7749B001BB88F /* ConstantIdentifier.swift */; };
+		3A3E88521D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88511D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift */; };
+		3A3E88531D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88511D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift */; };
+		3A3E88541D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88511D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift */; };
+		3A3E88561D7EF13100CAD40A /* NotificationClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88551D7EF13100CAD40A /* NotificationClub.swift */; };
+		3A3E88571D7EF13100CAD40A /* NotificationClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88551D7EF13100CAD40A /* NotificationClub.swift */; };
+		3A3E88581D7EF13100CAD40A /* NotificationClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88551D7EF13100CAD40A /* NotificationClub.swift */; };
+		3A3E885A1D7EF35B00CAD40A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88591D7EF35B00CAD40A /* NotificationService.swift */; };
+		3A3E885B1D7EF35B00CAD40A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88591D7EF35B00CAD40A /* NotificationService.swift */; };
+		3A3E885C1D7EF35B00CAD40A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E88591D7EF35B00CAD40A /* NotificationService.swift */; };
+		3A3E885E1D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E885D1D7F243E00CAD40A /* NotificationClubsViewModel.swift */; };
+		3A3E885F1D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E885D1D7F243E00CAD40A /* NotificationClubsViewModel.swift */; };
+		3A3E88601D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E885D1D7F243E00CAD40A /* NotificationClubsViewModel.swift */; };
+		3A41FC9D1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41FC9C1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift */; };
+		3A41FC9E1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41FC9C1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift */; };
+		3A41FC9F1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41FC9C1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift */; };
+		3A4352CD1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4352CC1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift */; };
+		3A4352CE1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4352CC1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift */; };
+		3A4352CF1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4352CC1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift */; };
+		3A467B091D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A467B081D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift */; };
+		3A467B0A1D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A467B081D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift */; };
+		3A467B0B1D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A467B081D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift */; };
+		3A47927D1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47927C1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift */; };
+		3A47927E1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47927C1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift */; };
+		3A47927F1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47927C1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift */; };
+		3A4BCE861D5A0F6900B7D350 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE851D5A0F6900B7D350 /* UtilManager.swift */; };
+		3A4BCE871D5A0F6900B7D350 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE851D5A0F6900B7D350 /* UtilManager.swift */; };
+		3A4BCE881D5A0F6900B7D350 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE851D5A0F6900B7D350 /* UtilManager.swift */; };
+		3A4BCE8A1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE891D5A107B00B7D350 /* AlertDialogueManager.swift */; };
+		3A4BCE8B1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE891D5A107B00B7D350 /* AlertDialogueManager.swift */; };
+		3A4BCE8C1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BCE891D5A107B00B7D350 /* AlertDialogueManager.swift */; };
+		3A4C42951E24F8BB0091FF37 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4C42941E24F8BB0091FF37 /* Security.framework */; };
+		3A4C42971E24F8C50091FF37 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4C42961E24F8C50091FF37 /* SystemConfiguration.framework */; };
+		3A4D3F121DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3F111DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift */; };
+		3A4D3F131DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3F111DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift */; };
+		3A4D3F141DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3F111DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift */; };
+		3A4EBDB71DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EBDB61DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift */; };
+		3A4EBDB81DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EBDB61DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift */; };
+		3A4EBDB91DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EBDB61DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift */; };
+		3A5296A21DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5296A11DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift */; };
+		3A5296A31DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5296A11DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift */; };
+		3A5296A41DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5296A11DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift */; };
+		3A6B94701E6EC88200C07DCD /* FlurryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B946F1E6EC88200C07DCD /* FlurryManager.swift */; };
+		3A6B94711E6EC88200C07DCD /* FlurryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B946F1E6EC88200C07DCD /* FlurryManager.swift */; };
+		3A6B94721E6EC88200C07DCD /* FlurryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B946F1E6EC88200C07DCD /* FlurryManager.swift */; };
+		3A6DBE4A1EEADC4000C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE4E1EEADC4000C69E39 /* Localizable.strings */; };
+		3A6DBE4B1EEADC4000C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE4E1EEADC4000C69E39 /* Localizable.strings */; };
+		3A6DBE4C1EEADC4000C69E39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DBE4E1EEADC4000C69E39 /* Localizable.strings */; };
+		3A6F84631D8081480084D71F /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F84621D8081480084D71F /* SimpleBarChart.m */; };
+		3A6F84641D8081480084D71F /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F84621D8081480084D71F /* SimpleBarChart.m */; };
+		3A6F84651D8081480084D71F /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F84621D8081480084D71F /* SimpleBarChart.m */; };
+		3A6F846F1D8084160084D71F /* BarChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F846E1D8084160084D71F /* BarChartViewModel.swift */; };
+		3A6F84701D8084160084D71F /* BarChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F846E1D8084160084D71F /* BarChartViewModel.swift */; };
+		3A6F84711D8084160084D71F /* BarChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F846E1D8084160084D71F /* BarChartViewModel.swift */; };
+		3A768A2E1DA4FF8F003EA39E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A768A2D1DA4FF8F003EA39E /* UIKit.framework */; };
+		3A7A609C1D717B2600D05071 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A609B1D717B2600D05071 /* Reachability.swift */; };
+		3A7A609D1D717B2600D05071 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A609B1D717B2600D05071 /* Reachability.swift */; };
+		3A7A609E1D717B2600D05071 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A609B1D717B2600D05071 /* Reachability.swift */; };
+		3A7A7E541E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A7E531E408FE2008F1FFA /* RemoteNotificationObserverManager.swift */; };
+		3A7A7E551E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A7E531E408FE2008F1FFA /* RemoteNotificationObserverManager.swift */; };
+		3A7A7E561E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A7E531E408FE2008F1FFA /* RemoteNotificationObserverManager.swift */; };
+		3A7EEE011D86CE2A00D94020 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE001D86CE2A00D94020 /* AccountService.swift */; };
+		3A7EEE021D86CE2A00D94020 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE001D86CE2A00D94020 /* AccountService.swift */; };
+		3A7EEE031D86CE2A00D94020 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE001D86CE2A00D94020 /* AccountService.swift */; };
+		3A7EEE051D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE041D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift */; };
+		3A7EEE061D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE041D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift */; };
+		3A7EEE071D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE041D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift */; };
+		3A7EEE091D871DA600D94020 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE081D871DA600D94020 /* WorkoutService.swift */; };
+		3A7EEE0A1D871DA600D94020 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE081D871DA600D94020 /* WorkoutService.swift */; };
+		3A7EEE0B1D871DA600D94020 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE081D871DA600D94020 /* WorkoutService.swift */; };
+		3A7EEE0D1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE0C1D871E0E00D94020 /* WorkoutViewModel.swift */; };
+		3A7EEE0E1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE0C1D871E0E00D94020 /* WorkoutViewModel.swift */; };
+		3A7EEE0F1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7EEE0C1D871E0E00D94020 /* WorkoutViewModel.swift */; };
+		3A821EF11DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A821EF01DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift */; };
+		3A821EF21DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A821EF01DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift */; };
+		3A821EF31DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A821EF01DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift */; };
+		3A89CED81DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A89CED71DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift */; };
+		3A89CED91DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A89CED71DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift */; };
+		3A89CEDA1DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A89CED71DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift */; };
+		3A8B9DC91DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B9DC81DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift */; };
+		3A8B9DCA1DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B9DC81DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift */; };
+		3A8B9DCB1DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B9DC81DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift */; };
+		3A8E3C171D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C151D64B07600FEDD67 /* MVPDashboardViewController.swift */; };
+		3A8E3C181D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C151D64B07600FEDD67 /* MVPDashboardViewController.swift */; };
+		3A8E3C191D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C151D64B07600FEDD67 /* MVPDashboardViewController.swift */; };
+		3A8E3C1A1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C161D64B07600FEDD67 /* MVPLoginViewController.swift */; };
+		3A8E3C1B1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C161D64B07600FEDD67 /* MVPLoginViewController.swift */; };
+		3A8E3C1C1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C161D64B07600FEDD67 /* MVPLoginViewController.swift */; };
+		3A8E3C2B1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C211D64B08F00FEDD67 /* LoginTableViewCell.swift */; };
+		3A8E3C2C1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C211D64B08F00FEDD67 /* LoginTableViewCell.swift */; };
+		3A8E3C2D1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C211D64B08F00FEDD67 /* LoginTableViewCell.swift */; };
+		3A8E3C2F1D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C2E1D64B1A700FEDD67 /* MVPMyMVPViewController.swift */; };
+		3A8E3C301D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C2E1D64B1A700FEDD67 /* MVPMyMVPViewController.swift */; };
+		3A8E3C311D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C2E1D64B1A700FEDD67 /* MVPMyMVPViewController.swift */; };
+		3A8E3C331D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C321D64CADD00FEDD67 /* MyMVPTableViewCell.swift */; };
+		3A8E3C341D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C321D64CADD00FEDD67 /* MyMVPTableViewCell.swift */; };
+		3A8E3C351D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C321D64CADD00FEDD67 /* MyMVPTableViewCell.swift */; };
+		3A8F1E1D1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F1E1C1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift */; };
+		3A8F1E1E1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F1E1C1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift */; };
+		3A8F1E1F1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F1E1C1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift */; };
+		3A91B2DD1D9ED175001FBD10 /* SiteClubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B2DC1D9ED175001FBD10 /* SiteClubService.swift */; };
+		3A91B2DE1D9ED175001FBD10 /* SiteClubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B2DC1D9ED175001FBD10 /* SiteClubService.swift */; };
+		3A91B2DF1D9ED175001FBD10 /* SiteClubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B2DC1D9ED175001FBD10 /* SiteClubService.swift */; };
+		3A9AF9F21DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AF9F11DA540EA004F104F /* MVPMyMVPCheckInViewController.swift */; };
+		3A9AF9F31DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AF9F11DA540EA004F104F /* MVPMyMVPCheckInViewController.swift */; };
+		3A9AF9F41DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AF9F11DA540EA004F104F /* MVPMyMVPCheckInViewController.swift */; };
+		3AA082351D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA082341D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift */; };
+		3AA082361D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA082341D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift */; };
+		3AA082371D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA082341D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift */; };
+		3AA6DC711D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6DC701D75BBE100B8C2DC /* ScheduleViewModel.swift */; };
+		3AA6DC721D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6DC701D75BBE100B8C2DC /* ScheduleViewModel.swift */; };
+		3AA6DC731D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6DC701D75BBE100B8C2DC /* ScheduleViewModel.swift */; };
+		3AA6DC791D75ED4300B8C2DC /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA6DC781D75ED4300B8C2DC /* EventKit.framework */; };
+		3AAABA911DF87B78000A2967 /* ConnectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAABA901DF87B78000A2967 /* ConnectedApp.swift */; };
+		3AAABA921DF87B78000A2967 /* ConnectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAABA901DF87B78000A2967 /* ConnectedApp.swift */; };
+		3AAABA931DF87B78000A2967 /* ConnectedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAABA901DF87B78000A2967 /* ConnectedApp.swift */; };
+		3AABEFB61DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABEFB51DE0816700D4C3C7 /* NavigationViewManager.swift */; };
+		3AABEFB71DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABEFB51DE0816700D4C3C7 /* NavigationViewManager.swift */; };
+		3AABEFB81DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABEFB51DE0816700D4C3C7 /* NavigationViewManager.swift */; };
+		3AB14B781E6EBA0500735A2A /* Flurry_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB14B771E6EBA0500735A2A /* Flurry_iOS_SDK.framework */; };
+		3AB89BB01D9C3720004DFDA0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB89BAF1D9C3720004DFDA0 /* Workout.swift */; };
+		3AB89BB11D9C3720004DFDA0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB89BAF1D9C3720004DFDA0 /* Workout.swift */; };
+		3AB89BB21D9C3720004DFDA0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB89BAF1D9C3720004DFDA0 /* Workout.swift */; };
+		3ABB3D921E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D911E321252005EEFF8 /* NotificationAnnouncementService.swift */; };
+		3ABB3D931E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D911E321252005EEFF8 /* NotificationAnnouncementService.swift */; };
+		3ABB3D941E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D911E321252005EEFF8 /* NotificationAnnouncementService.swift */; };
+		3ABB3D961E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D951E321293005EEFF8 /* NotificationAnnouncementViewModel.swift */; };
+		3ABB3D971E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D951E321293005EEFF8 /* NotificationAnnouncementViewModel.swift */; };
+		3ABB3D981E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3D951E321293005EEFF8 /* NotificationAnnouncementViewModel.swift */; };
+		3ABD1EBD1DA666F30065586F /* CheckInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD1EBC1DA666F30065586F /* CheckInService.swift */; };
+		3ABD1EBE1DA666F30065586F /* CheckInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD1EBC1DA666F30065586F /* CheckInService.swift */; };
+		3ABD1EBF1DA666F30065586F /* CheckInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD1EBC1DA666F30065586F /* CheckInService.swift */; };
+		3ABF2AA01DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF2A9F1DE4544C0004D49D /* WebViewAuthViewController.swift */; };
+		3ABF2AA11DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF2A9F1DE4544C0004D49D /* WebViewAuthViewController.swift */; };
+		3ABF2AA21DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF2A9F1DE4544C0004D49D /* WebViewAuthViewController.swift */; };
+		3ACC36471D816115005BCC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6A531D58F74E00066AB2 /* AppDelegate.swift */; };
+		3ACC36481D816116005BCC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F6A531D58F74E00066AB2 /* AppDelegate.swift */; };
+		3ACC364E1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC364D1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift */; };
+		3ACC364F1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC364D1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift */; };
+		3ACC36501D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC364D1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift */; };
+		3ACC36531D81CA85005BCC46 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC36521D81CA85005BCC46 /* Constant.swift */; };
+		3ACC36541D81CA85005BCC46 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC36521D81CA85005BCC46 /* Constant.swift */; };
+		3ACC36551D81CA85005BCC46 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC36521D81CA85005BCC46 /* Constant.swift */; };
+		3AD25DFC1E1144C5001436BD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD25DFB1E1144C5001436BD /* libsqlite3.tbd */; };
+		3ADAF2AB1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2AA1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift */; };
+		3ADAF2AC1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2AA1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift */; };
+		3ADAF2AD1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2AA1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift */; };
+		3ADAF2BB1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2BA1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift */; };
+		3ADAF2BC1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2BA1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift */; };
+		3ADAF2BD1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2BA1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift */; };
+		3ADAF2C31D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2C21D7841700022A6B7 /* ConnectedAppsViewModel.swift */; };
+		3ADAF2C41D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2C21D7841700022A6B7 /* ConnectedAppsViewModel.swift */; };
+		3ADAF2C51D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAF2C21D7841700022A6B7 /* ConnectedAppsViewModel.swift */; };
+		3ADB72BF1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB72BE1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift */; };
+		3ADB72C01DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB72BE1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift */; };
+		3ADB72C11DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB72BE1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift */; };
+		3AE35BEB1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE35BEA1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift */; };
+		3AE35BEC1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE35BEA1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift */; };
+		3AE35BED1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE35BEA1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift */; };
+		3AE4D2CC1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CB1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift */; };
+		3AE4D2CD1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CB1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift */; };
+		3AE4D2CE1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CB1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift */; };
+		3AE4D2D01D99406600AF15AD /* SiteClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CF1D99406600AF15AD /* SiteClub.swift */; };
+		3AE4D2D11D99406600AF15AD /* SiteClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CF1D99406600AF15AD /* SiteClub.swift */; };
+		3AE4D2D21D99406600AF15AD /* SiteClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2CF1D99406600AF15AD /* SiteClub.swift */; };
+		3AE4D2D41D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2D31D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift */; };
+		3AE4D2D51D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2D31D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift */; };
+		3AE4D2D61D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4D2D31D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift */; };
+		3AE4D2D81D99510D00AF15AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE4D2D71D99510D00AF15AD /* MapKit.framework */; };
+		3AE4D2DA1D99511700AF15AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE4D2D91D99511700AF15AD /* CoreLocation.framework */; };
+		3AE5441C1D99824900344230 /* DrawerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441A1D99824900344230 /* DrawerTableView.swift */; };
+		3AE5441D1D99824900344230 /* DrawerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441A1D99824900344230 /* DrawerTableView.swift */; };
+		3AE5441E1D99824900344230 /* DrawerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441A1D99824900344230 /* DrawerTableView.swift */; };
+		3AE5441F1D99824900344230 /* DrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441B1D99824900344230 /* DrawerTableViewCell.swift */; };
+		3AE544201D99824900344230 /* DrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441B1D99824900344230 /* DrawerTableViewCell.swift */; };
+		3AE544211D99824900344230 /* DrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5441B1D99824900344230 /* DrawerTableViewCell.swift */; };
+		3AE728761D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728751D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift */; };
+		3AE728771D6B08B200182B0C /* MVPMyMVPScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728751D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift */; };
+		3AE728781D6B08B300182B0C /* MVPMyMVPScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728751D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift */; };
+		3AE7287D1D6B0F8C00182B0C /* MVPMyMVPRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BD1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift */; };
+		3AE7287E1D6B0F8D00182B0C /* MVPMyMVPRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BD1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift */; };
+		3AE7287F1D6B144D00182B0C /* MyMVPRewardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BF1D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift */; };
+		3AE728801D6B144D00182B0C /* MyMVPRewardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF5BF1D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift */; };
+		3AE7288A1D6B242D00182B0C /* ExerciseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728891D6B242D00182B0C /* ExerciseClass.swift */; };
+		3AE7288B1D6B242D00182B0C /* ExerciseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728891D6B242D00182B0C /* ExerciseClass.swift */; };
+		3AE7288C1D6B242D00182B0C /* ExerciseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728891D6B242D00182B0C /* ExerciseClass.swift */; };
+		3AE728921D6B482600182B0C /* ExerciseClassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728911D6B482600182B0C /* ExerciseClassService.swift */; };
+		3AE728931D6B482600182B0C /* ExerciseClassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728911D6B482600182B0C /* ExerciseClassService.swift */; };
+		3AE728941D6B482600182B0C /* ExerciseClassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728911D6B482600182B0C /* ExerciseClassService.swift */; };
+		3AE7289A1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728991D6B48B200182B0C /* ExerciseClassViewModel.swift */; };
+		3AE7289B1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728991D6B48B200182B0C /* ExerciseClassViewModel.swift */; };
+		3AE7289C1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE728991D6B48B200182B0C /* ExerciseClassViewModel.swift */; };
+		3AEFA6E51DCB6F4300690EFF /* SendCommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFA6E41DCB6F4300690EFF /* SendCommentService.swift */; };
+		3AEFA6E61DCB6F4300690EFF /* SendCommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFA6E41DCB6F4300690EFF /* SendCommentService.swift */; };
+		3AEFA6E71DCB6F4300690EFF /* SendCommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFA6E41DCB6F4300690EFF /* SendCommentService.swift */; };
+		3AF60E291DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF60E281DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift */; };
+		3AF60E2A1DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF60E281DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift */; };
+		3AF60E2B1DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF60E281DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift */; };
+		3AF69CBD1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CBC1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift */; };
+		3AF69CBE1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CBC1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift */; };
+		3AF69CBF1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CBC1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift */; };
+		3AF69CC11DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CC01DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift */; };
+		3AF69CC21DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CC01DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift */; };
+		3AF69CC31DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69CC01DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift */; };
+		85A57D096DCFF0B827F2AA00 /* Pods_MVPSportsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A6095F31FB585C6D78736A /* Pods_MVPSportsUITests.framework */; };
+		8F1293FBCCFD7DF413DFF802 /* Pods_MVPSportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F204A3889EFC97D2A4912643 /* Pods_MVPSportsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A1F6A651D58F75000066AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1F6A481D58F74E00066AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1F6A4F1D58F74E00066AB2;
+			remoteInfo = MVPSports;
+		};
+		3A1F6A701D58F75100066AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1F6A481D58F74E00066AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1F6A4F1D58F74E00066AB2;
+			remoteInfo = MVPSports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025D1EEC77661EF02021E4E8 /* Pods-MVPSportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSportsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSportsTests/Pods-MVPSportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		10EB5EBDFA7347492C298A3C /* Pods-MVPSports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSports.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSports/Pods-MVPSports.release.xcconfig"; sourceTree = "<group>"; };
+		3A03A66E1D86AEF900EF5AE4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3A0AF7221DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPCommentCardViewController.swift; sourceTree = "<group>"; };
+		3A0FE2781D66219C003BD6FC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A0FE27A1D6621E7003BD6FC /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3A0FE27C1D66225B003BD6FC /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		3A1470381DDDB731003FEA96 /* MVPForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3A1BF5BD1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPRewardsViewController.swift; sourceTree = "<group>"; };
+		3A1BF5BF1D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPRewardsTableViewCell.swift; sourceTree = "<group>"; };
+		3A1BF5C11D65D04B002C2D29 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		3A1BF5C31D65D15A002C2D29 /* RewardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardService.swift; sourceTree = "<group>"; };
+		3A1BF5C91D65DEC2002C2D29 /* RewardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardViewModel.swift; sourceTree = "<group>"; };
+		3A1C04571D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPAccountInfoViewController.swift; sourceTree = "<group>"; };
+		3A1C045B1D771354001315A1 /* AccountInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoViewModel.swift; sourceTree = "<group>"; };
+		3A1C045F1D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPAccountInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3A1F6A501D58F74E00066AB2 /* MVPSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1F6A531D58F74E00066AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1F6A581D58F74F00066AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A1F6A5A1D58F74F00066AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A1F6A5D1D58F74F00066AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A1F6A5F1D58F75000066AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1F6A641D58F75000066AB2 /* MVPSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1F6A681D58F75100066AB2 /* MVPSportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPSportsTests.swift; sourceTree = "<group>"; };
+		3A1F6A6A1D58F75100066AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1F6A6F1D58F75100066AB2 /* MVPSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1F6A731D58F75100066AB2 /* MVPSportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPSportsUITests.swift; sourceTree = "<group>"; };
+		3A1F6A751D58F75100066AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1F815A1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		3A1F815B1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		3A1F815C1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3A1F815D1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		3A1F815E1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		3A1F815F1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		3A1F81601DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3A1F81611DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		3A2011331E1FB3C100DC08FF /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		3A2011341E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleSiteClassViewModel.swift; sourceTree = "<group>"; };
+		3A20113D1E1FB40F00DC08FF /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		3A20113E1E1FB40F00DC08FF /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		3A20113F1E1FB40F00DC08FF /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		3A2011401E1FB40F00DC08FF /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		3A2011411E1FB40F00DC08FF /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		3A2011431E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		3A2011441E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		3A2011461E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		3A2011471E1FB40F00DC08FF /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		3A2011491E1FB40F00DC08FF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3A20114A1E1FB40F00DC08FF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3A20114B1E1FB40F00DC08FF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3A20114C1E1FB40F00DC08FF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3A20114D1E1FB40F00DC08FF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3A20114E1E1FB40F00DC08FF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3A20114F1E1FB40F00DC08FF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3A2011501E1FB40F00DC08FF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3A2011511E1FB40F00DC08FF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3A2011521E1FB40F00DC08FF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3A2011531E1FB40F00DC08FF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3A2011541E1FB40F00DC08FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2011761E1FB46500DC08FF /* DatabaseConstantFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConstantFile.swift; sourceTree = "<group>"; };
+		3A2011771E1FB46500DC08FF /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		3A220FBA1DCB3DEF004354C1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3A220FBC1DCB3DEF004354C1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3A220FBD1DCB3DEF004354C1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3A220FBE1DCB3DEF004354C1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		3A2C09C71DA2655500C24E8E /* SiteClubsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteClubsViewModel.swift; sourceTree = "<group>"; };
+		3A3AFCA81D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		3A3AFCAC1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPJournalTableViewCell.swift; sourceTree = "<group>"; };
+		3A3C57031D82F5BE00B7A509 /* WebViewAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewAuthViewController.xib; sourceTree = "<group>"; };
+		3A3C59E61DB7749B001BB88F /* ConstantIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantIdentifier.swift; sourceTree = "<group>"; };
+		3A3E88511D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPNotificationClubsTableViewCell.swift; sourceTree = "<group>"; };
+		3A3E88551D7EF13100CAD40A /* NotificationClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationClub.swift; sourceTree = "<group>"; };
+		3A3E88591D7EF35B00CAD40A /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		3A3E885D1D7F243E00CAD40A /* NotificationClubsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationClubsViewModel.swift; sourceTree = "<group>"; };
+		3A41FC9C1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPNotificationsViewController.swift; sourceTree = "<group>"; };
+		3A4352CC1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPCheckInTableViewCell.swift; sourceTree = "<group>"; };
+		3A467B081D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPAccountLinksViewController.swift; sourceTree = "<group>"; };
+		3A47927C1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPScheduleClassByDateTableViewCell.swift; sourceTree = "<group>"; };
+		3A4BCE851D5A0F6900B7D350 /* UtilManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilManager.swift; sourceTree = "<group>"; };
+		3A4BCE891D5A107B00B7D350 /* AlertDialogueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDialogueManager.swift; sourceTree = "<group>"; };
+		3A4C42941E24F8BB0091FF37 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3A4C42961E24F8C50091FF37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A4D3F111DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedMemberTableViewCell.swift; sourceTree = "<group>"; };
+		3A4EBDB61DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPSiteClubDetailViewController.swift; sourceTree = "<group>"; };
+		3A5296A11DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPSiteClassDetailViewController.swift; sourceTree = "<group>"; };
+		3A6B946F1E6EC88200C07DCD /* FlurryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlurryManager.swift; sourceTree = "<group>"; };
+		3A6DBE4D1EEADC4000C69E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A6F84611D8081480084D71F /* SimpleBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBarChart.h; sourceTree = "<group>"; };
+		3A6F84621D8081480084D71F /* SimpleBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBarChart.m; sourceTree = "<group>"; };
+		3A6F84671D8081AB0084D71F /* MVPSports-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVPSports-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6F84681D8081AB0084D71F /* MVPSportsTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVPSportsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6F84691D8081AB0084D71F /* MVPSportsUITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVPSportsUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6F846E1D8084160084D71F /* BarChartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewModel.swift; sourceTree = "<group>"; };
+		3A768A2D1DA4FF8F003EA39E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A7A609B1D717B2600D05071 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3A7A7E531E408FE2008F1FFA /* RemoteNotificationObserverManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationObserverManager.swift; sourceTree = "<group>"; };
+		3A7EEE001D86CE2A00D94020 /* AccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		3A7EEE041D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPWorkoutViewController.swift; sourceTree = "<group>"; };
+		3A7EEE081D871DA600D94020 /* WorkoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutService.swift; sourceTree = "<group>"; };
+		3A7EEE0C1D871E0E00D94020 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		3A821EF01DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPCommentCardSelectOptionTableViewCell.swift; sourceTree = "<group>"; };
+		3A89CED71DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPCheckInClassViewController.swift; sourceTree = "<group>"; };
+		3A8B9DC81DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPInstructorDetailViewController.swift; sourceTree = "<group>"; };
+		3A8E3C151D64B07600FEDD67 /* MVPDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPDashboardViewController.swift; sourceTree = "<group>"; };
+		3A8E3C161D64B07600FEDD67 /* MVPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPLoginViewController.swift; sourceTree = "<group>"; };
+		3A8E3C211D64B08F00FEDD67 /* LoginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		3A8E3C2E1D64B1A700FEDD67 /* MVPMyMVPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPViewController.swift; sourceTree = "<group>"; };
+		3A8E3C321D64CADD00FEDD67 /* MyMVPTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPTableViewCell.swift; sourceTree = "<group>"; };
+		3A8F1E1C1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPCreateWorkoutViewController.swift; sourceTree = "<group>"; };
+		3A91B2DC1D9ED175001FBD10 /* SiteClubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteClubService.swift; sourceTree = "<group>"; };
+		3A9AF9F11DA540EA004F104F /* MVPMyMVPCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPCheckInViewController.swift; sourceTree = "<group>"; };
+		3AA082341D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPRewardsFilterOptionTableViewCell.swift; sourceTree = "<group>"; };
+		3AA6DC701D75BBE100B8C2DC /* ScheduleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		3AA6DC781D75ED4300B8C2DC /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3AAABA901DF87B78000A2967 /* ConnectedApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedApp.swift; sourceTree = "<group>"; };
+		3AABEFB51DE0816700D4C3C7 /* NavigationViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewManager.swift; sourceTree = "<group>"; };
+		3AB14B771E6EBA0500735A2A /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flurry_iOS_SDK.framework; path = "../../Library/Developer/Xcode/DerivedData/MVPSports-ahijlgexaufigncigqdazbbqyenk/Build/Products/Debug-iphoneos/Flurry-iOS-SDK/Flurry_iOS_SDK.framework"; sourceTree = "<group>"; };
+		3AB89BAF1D9C3720004DFDA0 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		3ABB3D911E321252005EEFF8 /* NotificationAnnouncementService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationAnnouncementService.swift; sourceTree = "<group>"; };
+		3ABB3D951E321293005EEFF8 /* NotificationAnnouncementViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationAnnouncementViewModel.swift; sourceTree = "<group>"; };
+		3ABD1EBC1DA666F30065586F /* CheckInService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInService.swift; sourceTree = "<group>"; };
+		3ABF2A9F1DE4544C0004D49D /* WebViewAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewAuthViewController.swift; sourceTree = "<group>"; };
+		3ACC364D1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPBarGraphTableViewCell.swift; sourceTree = "<group>"; };
+		3ACC36521D81CA85005BCC46 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3AD25DFB1E1144C5001436BD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3ADAF2AA1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPConnectedAppsViewController.swift; sourceTree = "<group>"; };
+		3ADAF2BA1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPConnectedAppsTableViewCell.swift; sourceTree = "<group>"; };
+		3ADAF2C21D7841700022A6B7 /* ConnectedAppsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedAppsViewModel.swift; sourceTree = "<group>"; };
+		3ADB72BE1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPAnnouncementViewController.swift; sourceTree = "<group>"; };
+		3AE35BEA1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPNotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		3AE4D2CB1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPChangeLocationViewController.swift; sourceTree = "<group>"; };
+		3AE4D2CF1D99406600AF15AD /* SiteClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteClub.swift; sourceTree = "<group>"; };
+		3AE4D2D31D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPSiteClubTableViewCell.swift; sourceTree = "<group>"; };
+		3AE4D2D71D99510D00AF15AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3AE4D2D91D99511700AF15AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3AE5441A1D99824900344230 /* DrawerTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTableView.swift; sourceTree = "<group>"; };
+		3AE5441B1D99824900344230 /* DrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTableViewCell.swift; sourceTree = "<group>"; };
+		3AE728751D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPScheduleViewController.swift; sourceTree = "<group>"; };
+		3AE728891D6B242D00182B0C /* ExerciseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseClass.swift; sourceTree = "<group>"; };
+		3AE728911D6B482600182B0C /* ExerciseClassService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseClassService.swift; sourceTree = "<group>"; };
+		3AE728991D6B48B200182B0C /* ExerciseClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseClassViewModel.swift; sourceTree = "<group>"; };
+		3AEFA6E41DCB6F4300690EFF /* SendCommentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendCommentService.swift; sourceTree = "<group>"; };
+		3AF60E281DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMVPInstructorDetailTableViewCell.swift; sourceTree = "<group>"; };
+		3AF69CBC1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPRewardPdfViewController.swift; sourceTree = "<group>"; };
+		3AF69CC01DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPMyMVPRewardSendToFriendViewController.swift; sourceTree = "<group>"; };
+		3F49B67C65CD9010602B6DE9 /* Pods-MVPSports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSports.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSports/Pods-MVPSports.debug.xcconfig"; sourceTree = "<group>"; };
+		92D49913300DE81B05AD2A3D /* Pods-MVPSportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSportsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSportsUITests/Pods-MVPSportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68B84CA7F634B5DC61889F7 /* Pods-MVPSportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSportsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSportsUITests/Pods-MVPSportsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A6095F31FB585C6D78736A /* Pods_MVPSportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPSportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58A148B2CE7FBAD198EC6B0 /* Pods-MVPSportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPSportsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVPSportsTests/Pods-MVPSportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7E248DF2AE8DFE67A750646 /* Pods_MVPSports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPSports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F204A3889EFC97D2A4912643 /* Pods_MVPSportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPSportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1F6A4D1D58F74E00066AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB14B781E6EBA0500735A2A /* Flurry_iOS_SDK.framework in Frameworks */,
+				3A4C42971E24F8C50091FF37 /* SystemConfiguration.framework in Frameworks */,
+				3A4C42951E24F8BB0091FF37 /* Security.framework in Frameworks */,
+				3AD25DFC1E1144C5001436BD /* libsqlite3.tbd in Frameworks */,
+				3A768A2E1DA4FF8F003EA39E /* UIKit.framework in Frameworks */,
+				3AE4D2DA1D99511700AF15AD /* CoreLocation.framework in Frameworks */,
+				3AE4D2D81D99510D00AF15AD /* MapKit.framework in Frameworks */,
+				3A220FBF1DCB3DEF004354C1 /* Bolts.framework in Frameworks */,
+				3A220FC51DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */,
+				3A220FCB1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */,
+				3AA6DC791D75ED4300B8C2DC /* EventKit.framework in Frameworks */,
+				3A220FC81DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */,
+				38D7D9AA2FB8DC0B81EFA5BF /* Pods_MVPSports.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A611D58F75000066AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1293FBCCFD7DF413DFF802 /* Pods_MVPSportsTests.framework in Frameworks */,
+				3A220FC61DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */,
+				3A220FCC1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */,
+				3A220FC91DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */,
+				3A220FC01DCB3DEF004354C1 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A6C1D58F75100066AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A57D096DCFF0B827F2AA00 /* Pods_MVPSportsUITests.framework in Frameworks */,
+				3A220FC71DCB3DEF004354C1 /* FBSDKCoreKit.framework in Frameworks */,
+				3A220FCD1DCB3DEF004354C1 /* FBSDKShareKit.framework in Frameworks */,
+				3A220FCA1DCB3DEF004354C1 /* FBSDKLoginKit.framework in Frameworks */,
+				3A220FC11DCB3DEF004354C1 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1F6A471D58F74E00066AB2 = {
+			isa = PBXGroup;
+			children = (
+				3A6DBE4E1EEADC4000C69E39 /* Localizable.strings */,
+				3A1F6A521D58F74E00066AB2 /* MVPSports */,
+				3A1F6A671D58F75000066AB2 /* MVPSportsTests */,
+				3A1F6A721D58F75100066AB2 /* MVPSportsUITests */,
+				3A1F6A511D58F74E00066AB2 /* Products */,
+				DA8481A79A425BC602573CA0 /* Pods */,
+				69D13F646C84C237561D06DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1F6A511D58F74E00066AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F6A501D58F74E00066AB2 /* MVPSports.app */,
+				3A1F6A641D58F75000066AB2 /* MVPSportsTests.xctest */,
+				3A1F6A6F1D58F75100066AB2 /* MVPSportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1F6A521D58F74E00066AB2 /* MVPSports */ = {
+			isa = PBXGroup;
+			children = (
+				3A4BCE821D5A0BC900B7D350 /* Utility */,
+				3AD25DFA1E114490001436BD /* LocalCacheDatabase */,
+				3A7A7E521E408FDB008F1FFA /* ApnsNotificationHandler */,
+				3A8E3C101D64B01200FEDD67 /* NetworkManager */,
+				3A8E3C111D64B01200FEDD67 /* ServiceManager */,
+				3A8E3C141D64B01200FEDD67 /* ViewModel */,
+				3A8E3C0F1D64B01200FEDD67 /* Model */,
+				3A8E3C121D64B01200FEDD67 /* View */,
+				3A8E3C131D64B01200FEDD67 /* ViewController */,
+				3A1F6A531D58F74E00066AB2 /* AppDelegate.swift */,
+				3A1F6A571D58F74F00066AB2 /* Main.storyboard */,
+				3A1F6A5A1D58F74F00066AB2 /* Assets.xcassets */,
+				3A1F6A5C1D58F74F00066AB2 /* LaunchScreen.storyboard */,
+				3A1F6A5F1D58F75000066AB2 /* Info.plist */,
+			);
+			path = MVPSports;
+			sourceTree = "<group>";
+		};
+		3A1F6A671D58F75000066AB2 /* MVPSportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F6A681D58F75100066AB2 /* MVPSportsTests.swift */,
+				3A1F6A6A1D58F75100066AB2 /* Info.plist */,
+			);
+			path = MVPSportsTests;
+			sourceTree = "<group>";
+		};
+		3A1F6A721D58F75100066AB2 /* MVPSportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F6A731D58F75100066AB2 /* MVPSportsUITests.swift */,
+				3A1F6A751D58F75100066AB2 /* Info.plist */,
+			);
+			path = MVPSportsUITests;
+			sourceTree = "<group>";
+		};
+		3A1F81591DBA58CE00DF799A /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F815A1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.h */,
+				3A1F815B1DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m */,
+				3A1F815C1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.h */,
+				3A1F815D1DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m */,
+				3A1F815E1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.h */,
+				3A1F815F1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m */,
+				3A1F81601DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3A1F81611DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		3A20113B1E1FB40F00DC08FF /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				3A20113C1E1FB40F00DC08FF /* fts3 */,
+				3A2011421E1FB40F00DC08FF /* InMemoryOnDiskIO */,
+				3A2011451E1FB40F00DC08FF /* Swift extensions */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		3A20113C1E1FB40F00DC08FF /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A20113D1E1FB40F00DC08FF /* FMDatabase+FTS3.h */,
+				3A20113E1E1FB40F00DC08FF /* FMDatabase+FTS3.m */,
+				3A20113F1E1FB40F00DC08FF /* FMTokenizers.h */,
+				3A2011401E1FB40F00DC08FF /* FMTokenizers.m */,
+				3A2011411E1FB40F00DC08FF /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		3A2011421E1FB40F00DC08FF /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011431E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.h */,
+				3A2011441E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		3A2011451E1FB40F00DC08FF /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011461E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift */,
+				3A2011471E1FB40F00DC08FF /* FMDatabaseVariadic.swift */,
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+		3A2011481E1FB40F00DC08FF /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011491E1FB40F00DC08FF /* FMDatabase.h */,
+				3A20114A1E1FB40F00DC08FF /* FMDatabase.m */,
+				3A20114B1E1FB40F00DC08FF /* FMDatabaseAdditions.h */,
+				3A20114C1E1FB40F00DC08FF /* FMDatabaseAdditions.m */,
+				3A20114D1E1FB40F00DC08FF /* FMDatabasePool.h */,
+				3A20114E1E1FB40F00DC08FF /* FMDatabasePool.m */,
+				3A20114F1E1FB40F00DC08FF /* FMDatabaseQueue.h */,
+				3A2011501E1FB40F00DC08FF /* FMDatabaseQueue.m */,
+				3A2011511E1FB40F00DC08FF /* FMDB.h */,
+				3A2011521E1FB40F00DC08FF /* FMResultSet.h */,
+				3A2011531E1FB40F00DC08FF /* FMResultSet.m */,
+				3A2011541E1FB40F00DC08FF /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		3A3C56FE1D82F5A300B7A509 /* ApiIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				3A3C57001D82F5A300B7A509 /* Fitbit */,
+				3A3C56FF1D82F5A300B7A509 /* Facebook */,
+			);
+			path = ApiIntegration;
+			sourceTree = "<group>";
+		};
+		3A3C56FF1D82F5A300B7A509 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				3A220FBA1DCB3DEF004354C1 /* Bolts.framework */,
+				3A220FBC1DCB3DEF004354C1 /* FBSDKCoreKit.framework */,
+				3A220FBD1DCB3DEF004354C1 /* FBSDKLoginKit.framework */,
+				3A220FBE1DCB3DEF004354C1 /* FBSDKShareKit.framework */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		3A3C57001D82F5A300B7A509 /* Fitbit */ = {
+			isa = PBXGroup;
+			children = (
+				3ABF2A9F1DE4544C0004D49D /* WebViewAuthViewController.swift */,
+				3A3C57031D82F5BE00B7A509 /* WebViewAuthViewController.xib */,
+			);
+			path = Fitbit;
+			sourceTree = "<group>";
+		};
+		3A4BCE821D5A0BC900B7D350 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B946E1E6EC85F00C07DCD /* FlurryManager */,
+				3A1F81591DBA58CE00DF799A /* TPKeyboardAvoiding */,
+				3A3C56FE1D82F5A300B7A509 /* ApiIntegration */,
+				3ACC36511D81CA76005BCC46 /* Constant */,
+				3A6F84661D80816A0084D71F /* MVPSports-Bridging-Header */,
+				3A6F845D1D8081220084D71F /* SimpleBarChart */,
+				3A7A609A1D717B1300D05071 /* Reachability */,
+				3A4BCE841D5A0F0300B7D350 /* UtilManager */,
+				3A4BCE831D5A0BC900B7D350 /* AlertDialogue */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3A4BCE831D5A0BC900B7D350 /* AlertDialogue */ = {
+			isa = PBXGroup;
+			children = (
+				3A4BCE891D5A107B00B7D350 /* AlertDialogueManager.swift */,
+			);
+			path = AlertDialogue;
+			sourceTree = "<group>";
+		};
+		3A4BCE841D5A0F0300B7D350 /* UtilManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A4BCE851D5A0F6900B7D350 /* UtilManager.swift */,
+			);
+			path = UtilManager;
+			sourceTree = "<group>";
+		};
+		3A6B946E1E6EC85F00C07DCD /* FlurryManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A6B946F1E6EC88200C07DCD /* FlurryManager.swift */,
+			);
+			path = FlurryManager;
+			sourceTree = "<group>";
+		};
+		3A6F845D1D8081220084D71F /* SimpleBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F84611D8081480084D71F /* SimpleBarChart.h */,
+				3A6F84621D8081480084D71F /* SimpleBarChart.m */,
+			);
+			path = SimpleBarChart;
+			sourceTree = "<group>";
+		};
+		3A6F84661D80816A0084D71F /* MVPSports-Bridging-Header */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F84671D8081AB0084D71F /* MVPSports-Bridging-Header.h */,
+				3A6F84681D8081AB0084D71F /* MVPSportsTests-Bridging-Header.h */,
+				3A6F84691D8081AB0084D71F /* MVPSportsUITests-Bridging-Header.h */,
+			);
+			path = "MVPSports-Bridging-Header";
+			sourceTree = "<group>";
+		};
+		3A7A609A1D717B1300D05071 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A609B1D717B2600D05071 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3A7A7E521E408FDB008F1FFA /* ApnsNotificationHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A7E531E408FE2008F1FFA /* RemoteNotificationObserverManager.swift */,
+			);
+			path = ApnsNotificationHandler;
+			sourceTree = "<group>";
+		};
+		3A8E3C0F1D64B01200FEDD67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FE2781D66219C003BD6FC /* User.swift */,
+				3A1BF5C11D65D04B002C2D29 /* Reward.swift */,
+				3A3E88551D7EF13100CAD40A /* NotificationClub.swift */,
+				3AAABA901DF87B78000A2967 /* ConnectedApp.swift */,
+				3AE4D2CF1D99406600AF15AD /* SiteClub.swift */,
+				3AE728891D6B242D00182B0C /* ExerciseClass.swift */,
+				3AB89BAF1D9C3720004DFDA0 /* Workout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A8E3C101D64B01200FEDD67 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A03A66E1D86AEF900EF5AE4 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		3A8E3C111D64B01200FEDD67 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A0FE27C1D66225B003BD6FC /* LoginService.swift */,
+				3A1BF5C31D65D15A002C2D29 /* RewardService.swift */,
+				3A7EEE001D86CE2A00D94020 /* AccountService.swift */,
+				3A3E88591D7EF35B00CAD40A /* NotificationService.swift */,
+				3A91B2DC1D9ED175001FBD10 /* SiteClubService.swift */,
+				3A7EEE081D871DA600D94020 /* WorkoutService.swift */,
+				3AE728911D6B482600182B0C /* ExerciseClassService.swift */,
+				3ABD1EBC1DA666F30065586F /* CheckInService.swift */,
+				3AEFA6E41DCB6F4300690EFF /* SendCommentService.swift */,
+				3ABB3D911E321252005EEFF8 /* NotificationAnnouncementService.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		3A8E3C121D64B01200FEDD67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AABEFB01DE0811600D4C3C7 /* NavigationViewManager */,
+				3AE544191D99820200344230 /* DrawerView */,
+				3A8E3C1D1D64B08F00FEDD67 /* CustomViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A8E3C131D64B01200FEDD67 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E3C161D64B07600FEDD67 /* MVPLoginViewController.swift */,
+				3A1470381DDDB731003FEA96 /* MVPForgotPasswordViewController.swift */,
+				3A8E3C151D64B07600FEDD67 /* MVPDashboardViewController.swift */,
+				3A8E3C2E1D64B1A700FEDD67 /* MVPMyMVPViewController.swift */,
+				3A1BF5BD1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift */,
+				3AF69CBC1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift */,
+				3AF69CC01DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift */,
+				3A1C04571D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift */,
+				3A467B081D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift */,
+				3ADAF2AA1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift */,
+				3A41FC9C1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift */,
+				3A7EEE041D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift */,
+				3A8F1E1C1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift */,
+				3AE728751D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift */,
+				3A5296A11DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift */,
+				3A8B9DC81DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift */,
+				3AE4D2CB1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift */,
+				3A4EBDB61DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift */,
+				3A0AF7221DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift */,
+				3A9AF9F11DA540EA004F104F /* MVPMyMVPCheckInViewController.swift */,
+				3A89CED71DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift */,
+				3ADB72BE1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3A8E3C141D64B01200FEDD67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011331E1FB3C100DC08FF /* DashboardViewModel.swift */,
+				3A2011341E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift */,
+				3A0FE27A1D6621E7003BD6FC /* UserViewModel.swift */,
+				3A1BF5C91D65DEC2002C2D29 /* RewardViewModel.swift */,
+				3AE728991D6B48B200182B0C /* ExerciseClassViewModel.swift */,
+				3A1C045B1D771354001315A1 /* AccountInfoViewModel.swift */,
+				3ADAF2C21D7841700022A6B7 /* ConnectedAppsViewModel.swift */,
+				3A3E885D1D7F243E00CAD40A /* NotificationClubsViewModel.swift */,
+				3A2C09C71DA2655500C24E8E /* SiteClubsViewModel.swift */,
+				3A7EEE0C1D871E0E00D94020 /* WorkoutViewModel.swift */,
+				3AA6DC701D75BBE100B8C2DC /* ScheduleViewModel.swift */,
+				3A6F846E1D8084160084D71F /* BarChartViewModel.swift */,
+				3ABB3D951E321293005EEFF8 /* NotificationAnnouncementViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A8E3C1D1D64B08F00FEDD67 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E3C211D64B08F00FEDD67 /* LoginTableViewCell.swift */,
+				3A4D3F111DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift */,
+				3A8E3C321D64CADD00FEDD67 /* MyMVPTableViewCell.swift */,
+				3A1BF5BF1D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift */,
+				3AA082341D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift */,
+				3ACC364D1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift */,
+				3A1C045F1D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift */,
+				3ADAF2BA1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift */,
+				3A3E88511D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift */,
+				3A3AFCA81D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift */,
+				3A3AFCAC1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift */,
+				3A47927C1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift */,
+				3AE4D2D31D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift */,
+				3A4352CC1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift */,
+				3A821EF01DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift */,
+				3AF60E281DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift */,
+				3AE35BEA1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3AABEFB01DE0811600D4C3C7 /* NavigationViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				3AABEFB51DE0816700D4C3C7 /* NavigationViewManager.swift */,
+			);
+			path = NavigationViewManager;
+			sourceTree = "<group>";
+		};
+		3ACC36511D81CA76005BCC46 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC36521D81CA85005BCC46 /* Constant.swift */,
+				3A3C59E61DB7749B001BB88F /* ConstantIdentifier.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		3AD25DFA1E114490001436BD /* LocalCacheDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				3AD25DFD1E1144FE001436BD /* FMDB */,
+				3AD25E181E11460C001436BD /* SQLiteManager */,
+			);
+			path = LocalCacheDatabase;
+			sourceTree = "<group>";
+		};
+		3AD25DFD1E1144FE001436BD /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011481E1FB40F00DC08FF /* fmdb */,
+				3A20113B1E1FB40F00DC08FF /* extra */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		3AD25E181E11460C001436BD /* SQLiteManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A2011761E1FB46500DC08FF /* DatabaseConstantFile.swift */,
+				3A2011771E1FB46500DC08FF /* DBManager.swift */,
+			);
+			path = SQLiteManager;
+			sourceTree = "<group>";
+		};
+		3AE544191D99820200344230 /* DrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5441A1D99824900344230 /* DrawerTableView.swift */,
+				3AE5441B1D99824900344230 /* DrawerTableViewCell.swift */,
+			);
+			path = DrawerView;
+			sourceTree = "<group>";
+		};
+		69D13F646C84C237561D06DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB14B771E6EBA0500735A2A /* Flurry_iOS_SDK.framework */,
+				3A4C42961E24F8C50091FF37 /* SystemConfiguration.framework */,
+				3A4C42941E24F8BB0091FF37 /* Security.framework */,
+				3AD25DFB1E1144C5001436BD /* libsqlite3.tbd */,
+				3A768A2D1DA4FF8F003EA39E /* UIKit.framework */,
+				3AE4D2D91D99511700AF15AD /* CoreLocation.framework */,
+				3AE4D2D71D99510D00AF15AD /* MapKit.framework */,
+				3AA6DC781D75ED4300B8C2DC /* EventKit.framework */,
+				E7E248DF2AE8DFE67A750646 /* Pods_MVPSports.framework */,
+				F204A3889EFC97D2A4912643 /* Pods_MVPSportsTests.framework */,
+				C5A6095F31FB585C6D78736A /* Pods_MVPSportsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8481A79A425BC602573CA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B67C65CD9010602B6DE9 /* Pods-MVPSports.debug.xcconfig */,
+				10EB5EBDFA7347492C298A3C /* Pods-MVPSports.release.xcconfig */,
+				D58A148B2CE7FBAD198EC6B0 /* Pods-MVPSportsTests.debug.xcconfig */,
+				025D1EEC77661EF02021E4E8 /* Pods-MVPSportsTests.release.xcconfig */,
+				92D49913300DE81B05AD2A3D /* Pods-MVPSportsUITests.debug.xcconfig */,
+				B68B84CA7F634B5DC61889F7 /* Pods-MVPSportsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1F6A4F1D58F74E00066AB2 /* MVPSports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1F6A781D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSports" */;
+			buildPhases = (
+				5BA6AC0B5D28DF0D052EF848 /* [CP] Check Pods Manifest.lock */,
+				3A1F6A4C1D58F74E00066AB2 /* Sources */,
+				3A1F6A4D1D58F74E00066AB2 /* Frameworks */,
+				3A1F6A4E1D58F74E00066AB2 /* Resources */,
+				A3B029B121D2DD69CDCFA00C /* [CP] Embed Pods Frameworks */,
+				BD158A1E954AB0F3EC9EE02B /* [CP] Copy Pods Resources */,
+				3A7CBBEF1E096C7200C133AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVPSports;
+			productName = MVPSports;
+			productReference = 3A1F6A501D58F74E00066AB2 /* MVPSports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A1F6A631D58F75000066AB2 /* MVPSportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1F6A7B1D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSportsTests" */;
+			buildPhases = (
+				0C76301E887914D7E4DCD6FB /* [CP] Check Pods Manifest.lock */,
+				3A1F6A601D58F75000066AB2 /* Sources */,
+				3A1F6A611D58F75000066AB2 /* Frameworks */,
+				3A1F6A621D58F75000066AB2 /* Resources */,
+				3A4E332ED1F58BD00A76F26B /* [CP] Embed Pods Frameworks */,
+				2C7D646AF6692A5EBC98DBBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1F6A661D58F75000066AB2 /* PBXTargetDependency */,
+			);
+			name = MVPSportsTests;
+			productName = MVPSportsTests;
+			productReference = 3A1F6A641D58F75000066AB2 /* MVPSportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A1F6A6E1D58F75100066AB2 /* MVPSportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1F6A7E1D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSportsUITests" */;
+			buildPhases = (
+				756B3B2431329275FB9D2F2E /* [CP] Check Pods Manifest.lock */,
+				3A1F6A6B1D58F75100066AB2 /* Sources */,
+				3A1F6A6C1D58F75100066AB2 /* Frameworks */,
+				3A1F6A6D1D58F75100066AB2 /* Resources */,
+				1ECAE676194C4D3679C36B7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1F6A711D58F75100066AB2 /* PBXTargetDependency */,
+			);
+			name = MVPSportsUITests;
+			productName = MVPSportsUITests;
+			productReference = 3A1F6A6F1D58F75100066AB2 /* MVPSportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1F6A481D58F74E00066AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					"com.apple.gamecenter.Dashboard Image",
+				);
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chetu;
+				TargetAttributes = {
+					3A1F6A4F1D58F74E00066AB2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KW95CTRW83;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					3A1F6A631D58F75000066AB2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WG4XB7Y62T;
+						TestTargetID = 3A1F6A4F1D58F74E00066AB2;
+					};
+					3A1F6A6E1D58F75100066AB2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WG4XB7Y62T;
+						TestTargetID = 3A1F6A4F1D58F74E00066AB2;
+					};
+				};
+			};
+			buildConfigurationList = 3A1F6A4B1D58F74E00066AB2 /* Build configuration list for PBXProject "MVPSports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1F6A471D58F74E00066AB2;
+			productRefGroup = 3A1F6A511D58F74E00066AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1F6A4F1D58F74E00066AB2 /* MVPSports */,
+				3A1F6A631D58F75000066AB2 /* MVPSportsTests */,
+				3A1F6A6E1D58F75100066AB2 /* MVPSportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1F6A4E1D58F74E00066AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6DBE4A1EEADC4000C69E39 /* Localizable.strings in Resources */,
+				3A3C57071D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */,
+				3A2011731E1FB40F00DC08FF /* Info.plist in Resources */,
+				3A1F6A5E1D58F74F00066AB2 /* LaunchScreen.storyboard in Resources */,
+				3A1F6A5B1D58F74F00066AB2 /* Assets.xcassets in Resources */,
+				3A1F6A591D58F74F00066AB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A621D58F75000066AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3C57081D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */,
+				3A6DBE4B1EEADC4000C69E39 /* Localizable.strings in Resources */,
+				3A2011741E1FB40F00DC08FF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A6D1D58F75100066AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3C57091D82F5BE00B7A509 /* WebViewAuthViewController.xib in Resources */,
+				3A6DBE4C1EEADC4000C69E39 /* Localizable.strings in Resources */,
+				3A2011751E1FB40F00DC08FF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C76301E887914D7E4DCD6FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1ECAE676194C4D3679C36B7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPSportsUITests/Pods-MVPSportsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C7D646AF6692A5EBC98DBBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPSportsTests/Pods-MVPSportsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4E332ED1F58BD00A76F26B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPSportsTests/Pods-MVPSportsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7CBBEF1E096C7200C133AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 4973d841605123f16286df4f321a9ff9994da997 cccb19be222bdb71fb85d7cf417605d31d9642726a075ffd7a9fa82170042ac4";
+		};
+		5BA6AC0B5D28DF0D052EF848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		756B3B2431329275FB9D2F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B029B121D2DD69CDCFA00C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPSports/Pods-MVPSports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD158A1E954AB0F3EC9EE02B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVPSports/Pods-MVPSports-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1F6A4C1D58F74E00066AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0AF7231DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */,
+				3AF69CC11DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */,
+				3A9AF9F21DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */,
+				3A1BF5BE1D65BB17002C2D29 /* MVPMyMVPRewardsViewController.swift in Sources */,
+				3A1470391DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */,
+				3AF60E291DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */,
+				3A1C04601D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */,
+				3AE7289A1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */,
+				3ADAF2BB1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */,
+				3ADB72BF1DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */,
+				3AE4D2D01D99406600AF15AD /* SiteClub.swift in Sources */,
+				3A20116D1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */,
+				3A20115B1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				3A03A66F1D86AEF900EF5AE4 /* NetworkManager.swift in Sources */,
+				3A6F84631D8081480084D71F /* SimpleBarChart.m in Sources */,
+				3AEFA6E51DCB6F4300690EFF /* SendCommentService.swift in Sources */,
+				3A6F846F1D8084160084D71F /* BarChartViewModel.swift in Sources */,
+				3AE5441F1D99824900344230 /* DrawerTableViewCell.swift in Sources */,
+				3A8F1E1D1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */,
+				3A4352CD1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */,
+				3A3E885E1D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */,
+				3A1F816B1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3A467B091D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */,
+				3A4BCE861D5A0F6900B7D350 /* UtilManager.swift in Sources */,
+				3A7A7E541E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */,
+				3A2011701E1FB40F00DC08FF /* FMResultSet.m in Sources */,
+				3A8E3C171D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */,
+				3A3C59E71DB7749B001BB88F /* ConstantIdentifier.swift in Sources */,
+				3ABB3D961E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */,
+				3ADAF2AB1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */,
+				3A1F81621DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3A2C09C81DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */,
+				3A3E885A1D7EF35B00CAD40A /* NotificationService.swift in Sources */,
+				3AA6DC711D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */,
+				3A1BF5C41D65D15A002C2D29 /* RewardService.swift in Sources */,
+				3A1BF5C21D65D04B002C2D29 /* Reward.swift in Sources */,
+				3ABB3D921E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */,
+				3A7EEE011D86CE2A00D94020 /* AccountService.swift in Sources */,
+				3A2011551E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */,
+				3A8B9DC91DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */,
+				3A20115E1E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				3A2011351E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */,
+				3AB89BB01D9C3720004DFDA0 /* Workout.swift in Sources */,
+				3A7EEE091D871DA600D94020 /* WorkoutService.swift in Sources */,
+				3AAABA911DF87B78000A2967 /* ConnectedApp.swift in Sources */,
+				3ABF2AA01DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */,
+				3A4EBDB71DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */,
+				3A3AFCA91D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */,
+				3ACC364E1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */,
+				3A1F6A541D58F74E00066AB2 /* AppDelegate.swift in Sources */,
+				3ADAF2C31D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */,
+				3AE728761D6B08AD00182B0C /* MVPMyMVPScheduleViewController.swift in Sources */,
+				3A8E3C1A1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */,
+				3A1BF5CA1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */,
+				3A1C045C1D771354001315A1 /* AccountInfoViewModel.swift in Sources */,
+				3A7A609C1D717B2600D05071 /* Reachability.swift in Sources */,
+				3AF69CBD1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */,
+				3AE35BEB1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */,
+				3A20117B1E1FB46500DC08FF /* DBManager.swift in Sources */,
+				3AA082351D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */,
+				3A1F81651DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AE728921D6B482600182B0C /* ExerciseClassService.swift in Sources */,
+				3A4BCE8A1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */,
+				3A0FE27D1D66225B003BD6FC /* LoginService.swift in Sources */,
+				3A5296A21DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */,
+				3A7EEE051D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */,
+				3A91B2DD1D9ED175001FBD10 /* SiteClubService.swift in Sources */,
+				3A0FE27B1D6621E7003BD6FC /* UserViewModel.swift in Sources */,
+				3A2011611E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */,
+				3A41FC9D1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */,
+				3A1BF5C01D65C382002C2D29 /* MyMVPRewardsTableViewCell.swift in Sources */,
+				3A47927D1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */,
+				3A1C04581D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */,
+				3ABD1EBD1DA666F30065586F /* CheckInService.swift in Sources */,
+				3A1F81681DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */,
+				3AE5441C1D99824900344230 /* DrawerTableView.swift in Sources */,
+				3A4D3F121DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */,
+				3AE4D2D41D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */,
+				3A2011381E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */,
+				3A3E88521D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */,
+				3A6B94701E6EC88200C07DCD /* FlurryManager.swift in Sources */,
+				3A2011781E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */,
+				3A821EF11DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */,
+				3A20116A1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */,
+				3A7EEE0D1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */,
+				3AE4D2CC1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */,
+				3ACC36531D81CA85005BCC46 /* Constant.swift in Sources */,
+				3A2011671E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */,
+				3A3AFCAD1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */,
+				3A2011641E1FB40F00DC08FF /* FMDatabase.m in Sources */,
+				3A89CED81DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */,
+				3A3E88561D7EF13100CAD40A /* NotificationClub.swift in Sources */,
+				3A8E3C2B1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */,
+				3AE7288A1D6B242D00182B0C /* ExerciseClass.swift in Sources */,
+				3A8E3C2F1D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */,
+				3A8E3C331D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */,
+				3AABEFB61DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */,
+				3A2011581E1FB40F00DC08FF /* FMTokenizers.m in Sources */,
+				3A0FE2791D66219C003BD6FC /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A601D58F75000066AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF60E2A1DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */,
+				3A8B9DCA1DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */,
+				3A4BCE871D5A0F6900B7D350 /* UtilManager.swift in Sources */,
+				3A1C04611D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */,
+				3AE7289B1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */,
+				3A2011681E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */,
+				3A2011711E1FB40F00DC08FF /* FMResultSet.m in Sources */,
+				3A3C59E81DB7749B001BB88F /* ConstantIdentifier.swift in Sources */,
+				3ADAF2BC1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */,
+				3A7EEE021D86CE2A00D94020 /* AccountService.swift in Sources */,
+				3A20115F1E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				3AAABA921DF87B78000A2967 /* ConnectedApp.swift in Sources */,
+				3ACC36471D816115005BCC46 /* AppDelegate.swift in Sources */,
+				3A7EEE0E1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */,
+				3AE5441D1D99824900344230 /* DrawerTableView.swift in Sources */,
+				3A6F84641D8081480084D71F /* SimpleBarChart.m in Sources */,
+				3AF69CC21DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */,
+				3A6F84701D8084160084D71F /* BarChartViewModel.swift in Sources */,
+				3A1F81631DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3A4EBDB81DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */,
+				3A3E885F1D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */,
+				3A2011361E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */,
+				3A0FE2861D662272003BD6FC /* RewardService.swift in Sources */,
+				3A467B0A1D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */,
+				3AA082361D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */,
+				3A1BF5CB1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */,
+				3A3AFCAE1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */,
+				3ADAF2AC1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */,
+				3ABD1EBE1DA666F30065586F /* CheckInService.swift in Sources */,
+				3A3E885B1D7EF35B00CAD40A /* NotificationService.swift in Sources */,
+				3AA6DC721D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */,
+				3A14703A1DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */,
+				3A2011791E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */,
+				3A2011651E1FB40F00DC08FF /* FMDatabase.m in Sources */,
+				3AE544201D99824900344230 /* DrawerTableViewCell.swift in Sources */,
+				3A8F1E1E1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */,
+				3A0AF7241DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */,
+				3ACC364F1D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */,
+				3A1F816C1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3AF69CBE1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */,
+				3A8E3C181D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */,
+				3A2011391E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */,
+				3A20117C1E1FB46500DC08FF /* DBManager.swift in Sources */,
+				3AE7287F1D6B144D00182B0C /* MyMVPRewardsTableViewCell.swift in Sources */,
+				3A91B2DE1D9ED175001FBD10 /* SiteClubService.swift in Sources */,
+				3A1F81661DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AEFA6E61DCB6F4300690EFF /* SendCommentService.swift in Sources */,
+				3A6B94711E6EC88200C07DCD /* FlurryManager.swift in Sources */,
+				3ADAF2C41D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */,
+				3AE4D2D51D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */,
+				3AE728771D6B08B200182B0C /* MVPMyMVPScheduleViewController.swift in Sources */,
+				3A1F6A691D58F75100066AB2 /* MVPSportsTests.swift in Sources */,
+				3A4352CE1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */,
+				3A3AFCAA1D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */,
+				3A2011591E1FB40F00DC08FF /* FMTokenizers.m in Sources */,
+				3AE7287D1D6B0F8C00182B0C /* MVPMyMVPRewardsViewController.swift in Sources */,
+				3A1C045D1D771354001315A1 /* AccountInfoViewModel.swift in Sources */,
+				3AE4D2CD1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */,
+				3A7A609D1D717B2600D05071 /* Reachability.swift in Sources */,
+				3A89CED91DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */,
+				3A2C09C91DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */,
+				3A7EEE0A1D871DA600D94020 /* WorkoutService.swift in Sources */,
+				3ABB3D971E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */,
+				3A5296A31DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */,
+				3ADB72C01DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */,
+				3A20116B1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */,
+				3AE35BEC1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */,
+				3A0FE2821D662268003BD6FC /* User.swift in Sources */,
+				3A03A6701D86AEF900EF5AE4 /* NetworkManager.swift in Sources */,
+				3A20115C1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				3ABF2AA11DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */,
+				3AE728931D6B482600182B0C /* ExerciseClassService.swift in Sources */,
+				3A7A7E551E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */,
+				3A2011621E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */,
+				3A2011561E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */,
+				3A0FE27E1D662260003BD6FC /* LoginService.swift in Sources */,
+				3A8E3C1B1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */,
+				3A0FE2841D66226C003BD6FC /* Reward.swift in Sources */,
+				3AABEFB71DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */,
+				3A9AF9F31DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */,
+				3A821EF21DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */,
+				3A4D3F131DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */,
+				3A0FE2801D662264003BD6FC /* UserViewModel.swift in Sources */,
+				3A41FC9E1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */,
+				3A1F81691DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */,
+				3A4BCE8B1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */,
+				3ACC36541D81CA85005BCC46 /* Constant.swift in Sources */,
+				3A1C04591D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */,
+				3AE4D2D11D99406600AF15AD /* SiteClub.swift in Sources */,
+				3A20116E1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */,
+				3A3E88531D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */,
+				3A7EEE061D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */,
+				3A3E88571D7EF13100CAD40A /* NotificationClub.swift in Sources */,
+				3A47927E1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */,
+				3AE7288B1D6B242D00182B0C /* ExerciseClass.swift in Sources */,
+				3ABB3D931E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */,
+				3AB89BB11D9C3720004DFDA0 /* Workout.swift in Sources */,
+				3A8E3C2C1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */,
+				3A8E3C301D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */,
+				3A8E3C341D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1F6A6B1D58F75100066AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF60E2B1DBE0EE1004EFF26 /* MyMVPInstructorDetailTableViewCell.swift in Sources */,
+				3A8B9DCB1DB8FBB800E3E6FF /* MVPMyMVPInstructorDetailViewController.swift in Sources */,
+				3A4BCE881D5A0F6900B7D350 /* UtilManager.swift in Sources */,
+				3A1C04621D7718E1001315A1 /* MyMVPAccountInfoTableViewCell.swift in Sources */,
+				3AE7289C1D6B48B200182B0C /* ExerciseClassViewModel.swift in Sources */,
+				3A2011691E1FB40F00DC08FF /* FMDatabaseAdditions.m in Sources */,
+				3A2011721E1FB40F00DC08FF /* FMResultSet.m in Sources */,
+				3A3C59E91DB7749B001BB88F /* ConstantIdentifier.swift in Sources */,
+				3ADAF2BD1D783C5B0022A6B7 /* MyMVPConnectedAppsTableViewCell.swift in Sources */,
+				3A7EEE031D86CE2A00D94020 /* AccountService.swift in Sources */,
+				3A2011601E1FB40F00DC08FF /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				3AAABA931DF87B78000A2967 /* ConnectedApp.swift in Sources */,
+				3ACC36481D816116005BCC46 /* AppDelegate.swift in Sources */,
+				3A7EEE0F1D871E0E00D94020 /* WorkoutViewModel.swift in Sources */,
+				3AE5441E1D99824900344230 /* DrawerTableView.swift in Sources */,
+				3A6F84651D8081480084D71F /* SimpleBarChart.m in Sources */,
+				3AF69CC31DDB2A54004425D9 /* MVPMyMVPRewardSendToFriendViewController.swift in Sources */,
+				3A6F84711D8084160084D71F /* BarChartViewModel.swift in Sources */,
+				3A1F81641DBA58CE00DF799A /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3A4EBDB91DA2C130000668DE /* MVPMyMVPSiteClubDetailViewController.swift in Sources */,
+				3A3E88601D7F243E00CAD40A /* NotificationClubsViewModel.swift in Sources */,
+				3A2011371E1FB3C100DC08FF /* DashboardViewModel.swift in Sources */,
+				3A0FE2871D662273003BD6FC /* RewardService.swift in Sources */,
+				3A467B0B1D84346C00CC8FB3 /* MVPMyMVPAccountLinksViewController.swift in Sources */,
+				3AA082371D8FFB13006E1CE6 /* MyMVPRewardsFilterOptionTableViewCell.swift in Sources */,
+				3A1BF5CC1D65DEC2002C2D29 /* RewardViewModel.swift in Sources */,
+				3A3AFCAF1D882ED400D38B6E /* MyMVPJournalTableViewCell.swift in Sources */,
+				3ADAF2AD1D7832570022A6B7 /* MVPMyMVPConnectedAppsViewController.swift in Sources */,
+				3ABD1EBF1DA666F30065586F /* CheckInService.swift in Sources */,
+				3A3E885C1D7EF35B00CAD40A /* NotificationService.swift in Sources */,
+				3AA6DC731D75BBE100B8C2DC /* ScheduleViewModel.swift in Sources */,
+				3A14703B1DDDB731003FEA96 /* MVPForgotPasswordViewController.swift in Sources */,
+				3A20117A1E1FB46500DC08FF /* DatabaseConstantFile.swift in Sources */,
+				3A2011661E1FB40F00DC08FF /* FMDatabase.m in Sources */,
+				3AE544211D99824900344230 /* DrawerTableViewCell.swift in Sources */,
+				3A8F1E1F1D8AA878008C5656 /* MVPMyMVPCreateWorkoutViewController.swift in Sources */,
+				3A0AF7251DBA313B004EEC1F /* MVPMyMVPCommentCardViewController.swift in Sources */,
+				3ACC36501D8163E4005BCC46 /* MyMVPBarGraphTableViewCell.swift in Sources */,
+				3A1F816D1DBA58CE00DF799A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3AF69CBF1DDB22A4004425D9 /* MVPMyMVPRewardPdfViewController.swift in Sources */,
+				3A8E3C191D64B07600FEDD67 /* MVPDashboardViewController.swift in Sources */,
+				3A20113A1E1FB3C100DC08FF /* ScheduleSiteClassViewModel.swift in Sources */,
+				3A20117D1E1FB46500DC08FF /* DBManager.swift in Sources */,
+				3AE728801D6B144D00182B0C /* MyMVPRewardsTableViewCell.swift in Sources */,
+				3A91B2DF1D9ED175001FBD10 /* SiteClubService.swift in Sources */,
+				3A1F81671DBA58CE00DF799A /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3AEFA6E71DCB6F4300690EFF /* SendCommentService.swift in Sources */,
+				3A6B94721E6EC88200C07DCD /* FlurryManager.swift in Sources */,
+				3ADAF2C51D7841700022A6B7 /* ConnectedAppsViewModel.swift in Sources */,
+				3AE4D2D61D99431600AF15AD /* MyMVPSiteClubTableViewCell.swift in Sources */,
+				3AE728781D6B08B300182B0C /* MVPMyMVPScheduleViewController.swift in Sources */,
+				3A1F6A741D58F75100066AB2 /* MVPSportsUITests.swift in Sources */,
+				3A4352CF1DA654760031E1E5 /* MyMVPCheckInTableViewCell.swift in Sources */,
+				3A3AFCAB1D882EAF00D38B6E /* MyMVPWorkoutTableViewCell.swift in Sources */,
+				3A20115A1E1FB40F00DC08FF /* FMTokenizers.m in Sources */,
+				3AE7287E1D6B0F8D00182B0C /* MVPMyMVPRewardsViewController.swift in Sources */,
+				3A1C045E1D771354001315A1 /* AccountInfoViewModel.swift in Sources */,
+				3AE4D2CE1D992A1900AF15AD /* MVPMyMVPChangeLocationViewController.swift in Sources */,
+				3A7A609E1D717B2600D05071 /* Reachability.swift in Sources */,
+				3A89CEDA1DD086D500DC59A2 /* MVPMyMVPCheckInClassViewController.swift in Sources */,
+				3A2C09CA1DA2655500C24E8E /* SiteClubsViewModel.swift in Sources */,
+				3A7EEE0B1D871DA600D94020 /* WorkoutService.swift in Sources */,
+				3ABB3D981E321293005EEFF8 /* NotificationAnnouncementViewModel.swift in Sources */,
+				3A5296A41DA8FC3000746BA2 /* MVPMyMVPSiteClassDetailViewController.swift in Sources */,
+				3ADB72C11DF1EFBF00346F39 /* MVPMyMVPAnnouncementViewController.swift in Sources */,
+				3A20116C1E1FB40F00DC08FF /* FMDatabasePool.m in Sources */,
+				3AE35BED1E488716007D59C5 /* MyMVPNotificationsTableViewCell.swift in Sources */,
+				3A0FE2831D662268003BD6FC /* User.swift in Sources */,
+				3A03A6711D86AEF900EF5AE4 /* NetworkManager.swift in Sources */,
+				3A20115D1E1FB40F00DC08FF /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				3ABF2AA21DE4544C0004D49D /* WebViewAuthViewController.swift in Sources */,
+				3AE728941D6B482600182B0C /* ExerciseClassService.swift in Sources */,
+				3A7A7E561E408FE2008F1FFA /* RemoteNotificationObserverManager.swift in Sources */,
+				3A2011631E1FB40F00DC08FF /* FMDatabaseVariadic.swift in Sources */,
+				3A2011571E1FB40F00DC08FF /* FMDatabase+FTS3.m in Sources */,
+				3A0FE27F1D662260003BD6FC /* LoginService.swift in Sources */,
+				3A8E3C1C1D64B07600FEDD67 /* MVPLoginViewController.swift in Sources */,
+				3A0FE2851D66226D003BD6FC /* Reward.swift in Sources */,
+				3AABEFB81DE0816700D4C3C7 /* NavigationViewManager.swift in Sources */,
+				3A9AF9F41DA540EA004F104F /* MVPMyMVPCheckInViewController.swift in Sources */,
+				3A821EF31DD350520006AC54 /* MyMVPCommentCardSelectOptionTableViewCell.swift in Sources */,
+				3A4D3F141DCA0A2500047EB8 /* LinkedMemberTableViewCell.swift in Sources */,
+				3A0FE2811D662265003BD6FC /* UserViewModel.swift in Sources */,
+				3A41FC9F1D789B9E00D4EF4B /* MVPMyMVPNotificationsViewController.swift in Sources */,
+				3A1F816A1DBA58CE00DF799A /* TPKeyboardAvoidingTableView.m in Sources */,
+				3A4BCE8C1D5A107C00B7D350 /* AlertDialogueManager.swift in Sources */,
+				3ACC36551D81CA85005BCC46 /* Constant.swift in Sources */,
+				3A1C045A1D771315001315A1 /* MVPMyMVPAccountInfoViewController.swift in Sources */,
+				3AE4D2D21D99406600AF15AD /* SiteClub.swift in Sources */,
+				3A20116F1E1FB40F00DC08FF /* FMDatabaseQueue.m in Sources */,
+				3A3E88541D7EEE9E00CAD40A /* MyMVPNotificationClubsTableViewCell.swift in Sources */,
+				3A7EEE071D870C1700D94020 /* MVPMyMVPWorkoutViewController.swift in Sources */,
+				3A3E88581D7EF13100CAD40A /* NotificationClub.swift in Sources */,
+				3A47927F1D6C529D00911C52 /* MyMVPScheduleClassByDateTableViewCell.swift in Sources */,
+				3AE7288C1D6B242D00182B0C /* ExerciseClass.swift in Sources */,
+				3ABB3D941E321252005EEFF8 /* NotificationAnnouncementService.swift in Sources */,
+				3AB89BB21D9C3720004DFDA0 /* Workout.swift in Sources */,
+				3A8E3C2D1D64B08F00FEDD67 /* LoginTableViewCell.swift in Sources */,
+				3A8E3C311D64B1A700FEDD67 /* MVPMyMVPViewController.swift in Sources */,
+				3A8E3C351D64CADD00FEDD67 /* MyMVPTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1F6A661D58F75000066AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1F6A4F1D58F74E00066AB2 /* MVPSports */;
+			targetProxy = 3A1F6A651D58F75000066AB2 /* PBXContainerItemProxy */;
+		};
+		3A1F6A711D58F75100066AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1F6A4F1D58F74E00066AB2 /* MVPSports */;
+			targetProxy = 3A1F6A701D58F75100066AB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A1F6A571D58F74F00066AB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1F6A581D58F74F00066AB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A1F6A5C1D58F74F00066AB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1F6A5D1D58F74F00066AB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A6DBE4E1EEADC4000C69E39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6DBE4D1EEADC4000C69E39 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1F6A761D58F75100066AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A1F6A771D58F75100066AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A1F6A791D58F75100066AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F49B67C65CD9010602B6DE9 /* Pods-MVPSports.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A1F6A7A1D58F75100066AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EB5EBDFA7347492C298A3C /* Pods-MVPSports.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3A1F6A7C1D58F75100066AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58A148B2CE7FBAD198EC6B0 /* Pods-MVPSportsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVPSports.app/MVPSports";
+			};
+			name = Debug;
+		};
+		3A1F6A7D1D58F75100066AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025D1EEC77661EF02021E4E8 /* Pods-MVPSportsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSportsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVPSports.app/MVPSports";
+			};
+			name = Release;
+		};
+		3A1F6A7F1D58F75100066AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D49913300DE81B05AD2A3D /* Pods-MVPSportsUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = MVPSports;
+			};
+			name = Debug;
+		};
+		3A1F6A801D58F75100066AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68B84CA7F634B5DC61889F7 /* Pods-MVPSportsUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Lodes (Z487755JNK)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MVPSports/Utility/ApiIntegration/Facebook",
+				);
+				INFOPLIST_FILE = MVPSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MVPSportsClubscom.MVPSportsClubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f140547f-f2e4-4915-a90e-651b716d839a";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVPSports/Utility/MVPSports-Bridging-Header/MVPSports-Bridging-Header.h";
+				TEST_TARGET_NAME = MVPSports;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1F6A4B1D58F74E00066AB2 /* Build configuration list for PBXProject "MVPSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1F6A761D58F75100066AB2 /* Debug */,
+				3A1F6A771D58F75100066AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1F6A781D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1F6A791D58F75100066AB2 /* Debug */,
+				3A1F6A7A1D58F75100066AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1F6A7B1D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1F6A7C1D58F75100066AB2 /* Debug */,
+				3A1F6A7D1D58F75100066AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1F6A7E1D58F75100066AB2 /* Build configuration list for PBXNativeTarget "MVPSportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1F6A7F1D58F75100066AB2 /* Debug */,
+				3A1F6A801D58F75100066AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A1F6A481D58F74E00066AB2 /* Project object */;
+}

@@ -1,0 +1,27 @@
+PODS:
+  - Crashlytics (3.7.2):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - Flurry-iOS-SDK/FlurrySDK (7.6.6)
+  - PKHUD (3.2.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Flurry-iOS-SDK/FlurrySDK
+  - PKHUD
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  Flurry-iOS-SDK: 97bbeec09cca666c2f1772f6e161c4f8ccff611e
+  PKHUD: 001c11518f125a273ddf026bcc64918423744ea2
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: aceb762a5325913e4bdca5633ad39df3efa3493e
+
+COCOAPODS: 1.0.1
